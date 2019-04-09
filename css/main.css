@@ -116,7 +116,6 @@ h1, h2 {
   width: 90%;
 }
 
-
 a {
  text-decoration: none;
  color: #1E1E23;
@@ -136,7 +135,7 @@ ul {
 
 
 nav {
- background: transparent;
+ background-color: transparent;
  height: auto;
  width: auto;
  padding: 0;
@@ -145,9 +144,9 @@ nav {
 #menuToggle {
  display: flex;
  flex-direction: column;
- position: fixed;
- top: 10;
- left: 10;
+ position: relative;
+ top: 0;
+ left: 0;
  z-index: 1;
  -webkit-user-select: none;
  user-select: none;
@@ -265,8 +264,18 @@ nav {
   letter-spacing: .1rem;
 
 }
+/***** CLIENT INTAKE FORM *****/
+
+.typeform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 175px;
+  width: 100%;
+}
 
 /***** SERVICES - Mobile *****/
+
 
 #services-info {
   padding: 12% 5% 12%;
